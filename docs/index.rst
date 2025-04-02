@@ -1,69 +1,49 @@
-Read the Docs tutorial
+===========
+Skladnia
+===========
 
-In this tutorial you will learn how to host a public documentation project on Read the Docs Community.
+Nagłówek 1
+=========
 
-Note
+Nagłówek 2
+---------
 
-Find out the differences between Read the Docs Community and Read the Docs for Business.
+Nagłówek 3
+^^^^^^^^^
 
-In the tutorial we will:
+Nagłówek 4
+~~~~~~~~~
 
-    Import a Sphinx project from a GitHub repository (no prior experience with Sphinx is required).
+To jest przykładowy akapit tekstowy.
 
-    Tailor the project’s configuration.
+.. note:: To jest akapit informacyjny (Note).
 
-    Explore other useful Read the Docs features.
+.. tip:: To jest wskazówka (Tip).
 
-If you don’t have a GitHub account, you’ll need to register for a free account before you start.
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Getting started
+``print("Hello, World!")``
 
-   Tutorial </tutorial/index>
-   /intro/add-project
-   /intro/doctools
-   /examples
+.. code-block:: python
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Project setup and configuration
+    print("Hello, World!")
 
-   /config-file/index
-   /config-file/v2
-   /addons
-   /intro/accounts
-   /automation-rules
-   /guides/reproducible-builds
+`get.szurag.pl <https://get.szurag.pl>`_
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Build process
+1. Pierwszy element
+2. Drugi element
 
-   /builds
-   /build-customization
-   /reference/git-integration
-   /pull-requests
-   /build-notifications
-   /environment-variables
-   /reference/environment-variables
+- Pierwszy element
+- Drugi element
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Hosting documentation
+Pojęcie
+    Definicja
 
-   /versions
-   /subprojects
-   /localization
-   /versioning-schemes
-   /custom-domains
-   /doc-notifications
-   /canonical-urls
-   /reference/cdn
-   /reference/sitemaps
-   /reference/404-not-found
-   /reference/robots
+.. image:: https://get.szurag.pl/tidy/sigma.gif
+   :alt: real sigma (to ja)
 
++-------------+------------+
+| Kolumna 1   | Kolumna 2  |
++=============+============+
+| Wiersz 1.1  | Wiersz 1.2 |
++-------------+------------+
+| Wiersz 2.1  | Wiersz 2.2 |
++-------------+------------+
