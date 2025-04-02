@@ -1,12 +1,12 @@
 Dominik Banicki
+=====
 
-taka stronka
+**relrel**
 
 skladnia :doc:`skladnia`
 
-Note
-
-witam
+.. note::
+   witam
 
 .. toctree::
    :maxdepth: 1
