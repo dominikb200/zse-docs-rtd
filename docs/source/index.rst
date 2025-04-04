@@ -10,7 +10,7 @@ skladnia :doc:`skladnia`
 
 .. toctree::
    :maxdepth: 1
-   :caption: Spisowa treśc
+   :caption: Spis treści
 
    skladnia
    autor
